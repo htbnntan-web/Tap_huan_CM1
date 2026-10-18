@@ -1,0 +1,6 @@
+{
+  "name": "Hệ Thống Slide Chuyên Môn Giáo Dục Phổ Thông",
+  "description": "Bài trình chiếu chuyên nghiệp tổng hợp quy trình xây dựng Kế hoạch dạy học (CV 5512), Đổi mới KHBD, Tích hợp giáo dục (CV 5208), Khung năng lực số (TT 02/2025), Sinh hoạt chuyên môn NCBH (CV 5555) và Quản lý hồ sơ điện tử (TT 15/2026).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

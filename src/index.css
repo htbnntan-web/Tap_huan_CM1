@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-serif: 'Lora', Georgia, serif;
+    --font-mono: 'IBM Plex Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: #0F172A;
+    background-color: #F8FAFC;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-sans);
+    text-wrap: balance;
+  }
+
+  .font-editorial {
+    font-family: var(--font-serif);
+  }
+
+  .font-mono-tabular {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .print-slide {
+    page-break-after: always;
+    break-after: page;
+    box-shadow: none !important;
+    border: 1px solid #CBD5E1 !important;
+  }
+}

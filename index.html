@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hệ Thống Slide Chuyên Môn Giáo Dục Phổ Thông</title>
+    <meta name="description" content="Bài trình chiếu chuyên nghiệp tổng hợp quy trình xây dựng Kế hoạch dạy học (CV 5512), Đổi mới KHBD, Tích hợp giáo dục (CV 5208), Khung năng lực số (TT 02/2025), Sinh hoạt chuyên môn NCBH (CV 5555) và Quản lý hồ sơ điện tử (TT 15/2026)." />
+    <meta property="og:title" content="Hệ Thống Slide Chuyên Môn Giáo Dục Phổ Thông" />
+    <meta property="og:description" content="Bài trình chiếu chuyên nghiệp tổng hợp quy trình xây dựng Kế hoạch dạy học (CV 5512), Đổi mới KHBD, Tích hợp giáo dục (CV 5208), Khung năng lực số (TT 02/2025), Sinh hoạt chuyên môn NCBH (CV 5555) và Quản lý hồ sơ điện tử (TT 15/2026)." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      (function () {
+        try {
+          var originalFetch = window.fetch;
+          if (originalFetch) {
+            var currentFetch = originalFetch.bind(window);
+            Object.defineProperty(window, 'fetch', {
+              configurable: true,
+              enumerable: true,
+              get: function () {
+                return currentFetch;
+              },
+              set: function (newFetch) {
+                if (typeof newFetch === 'function') {
+                  currentFetch = newFetch;
+                }
+              }
+            });
+          }
+        } catch (_) {}
+
+        window.addEventListener(
+          'error',
+          function (event) {
+            if (
+              (event.filename && event.filename.indexOf('chrome-extension://') === 0) ||
+              (event.message && event.message.indexOf('Cannot set property fetch') !== -1)
+            ) {
+              event.stopImmediatePropagation();
+              event.preventDefault();
+            }
+          },
+          true
+        );
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Lora:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body class="bg-[#F8FAFC] text-[#0F172A] antialiased selection:bg-[#1E3A8A] selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
